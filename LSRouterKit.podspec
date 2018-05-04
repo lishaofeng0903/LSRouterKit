@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/lishaofeng0903/LSRouterKit"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "lishaofeng0903" => "571366363@qq.com" }
   s.platform     = :ios, "7.0"
