@@ -3,6 +3,23 @@
 [![License](https://img.shields.io/cocoapods/l/LSRouterKit.svg?style=flat)](https://cocoapods.org/pods/LSRouterKit)
 [![Platform](https://img.shields.io/cocoapods/p/LSRouterKit.svg?style=flat)](https://cocoapods.org/pods/LSRouterKit)
 - 一款本地端路由框架，统一控制器的创建方式和参数传递。控制器与控制器解耦，减少头文件的引用，加快编译速度。
+## 安装
+### 【使用CocoaPods】
+```ruby
+pod 'LSRouterKit'
+```
+### 【手动导入】
+- 将`LSRouterKit`文件夹中的所有源代码拽入项目中
+```objc
+LSRouterKit.h
+LSRouterProtocol.h
+LSRouter.h                      LSRouter.m
+LSRouterMaker.h                 LSRouterMaker.m
+LSRouterParam.h                 LSRouterParam.m
+LSRouterResultParam.h           LSRouterResultParam.m
+UIViewController+LSRouter.h     UIViewController+LSRouter.m
+```
+
 ## 使用方式
 - 导入头文件
 ```objc
